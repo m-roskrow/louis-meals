@@ -1,0 +1,34 @@
+{"meals": {
+    "stirfry": {
+        "meat": true,
+        "fish": true,
+        "flexible": true,
+        "saturday": false,
+        "sunday": false,
+        "meal_nice": "Stir Fry"
+    },
+    "escalopes": {
+        "meat": true,
+        "fish": false,
+        "fleixble": true,
+        "saturday": false,
+        "sunday": true,
+        "meal_nice": "Pasta and Escalopes, optional chicken"
+    },
+    "chickpea-curry": {
+        "meat": false,
+        "fish": false,
+        "flexible": true,
+        "saturday": false,
+        "sunday": false,
+        "meal_nice": "Chickpea Curry"
+    },
+    "big-greek": {
+        "meat": true,
+        "fish": false,
+        "flexible": true,
+        "saturday": true,
+        "sunday": false,
+        "meal_nice": "Spinach and Feta Pie with Big Bean Stew"
+    }
+}}
