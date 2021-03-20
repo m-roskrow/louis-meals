@@ -42,7 +42,7 @@ function checkCheck(meal, checks) {
 }
 
 function getValidMeals (meals, checks) {
-    for (var i = 0; i < Objects.keys.length; i ++){
+    for (var i = 0; i < Object.keys.length; i ++){
         
     }
 }
