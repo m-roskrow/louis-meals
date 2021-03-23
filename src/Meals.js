@@ -2,6 +2,8 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import img1 from "./cheflou.jpg"
 import Checkboxes from "./Checkboxes.js"
+import UpdateMealsForm from "./UpdateMeals.js";
+
 import { Grid } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -72,6 +74,8 @@ function Meals (props){
         <Grid className={classes.root} container spacing={0} align="center" justify="center">
             <Grid item xs={3}>
                 <Checkboxes onChange={updateChecks}></Checkboxes>
+                <UpdateMealsForm></UpdateMealsForm>
+
             </Grid>
             <Grid item xs={9}>
                 <Card onClick={mealButton} className={classes.root}>

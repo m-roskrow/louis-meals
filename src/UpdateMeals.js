@@ -12,54 +12,26 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ValidationTextFields() {
+export default function UpdateMealsForm() {
   const classes = useStyles();
 
   return (
     <form className={classes.root} noValidate autoComplete="off">
+      <h5>Update Meals</h5>
       <div>
-        <TextField error id="standard-error" label="Error" defaultValue="Hello World" />
-        <TextField
-          error
-          id="standard-error-helper-text"
-          label="Error"
-          defaultValue="Hello World"
-          helperText="Incorrect entry."
-        />
+        <TextField error id="standard-error" placeholder="meal_nice" />
       </div>
       <div>
-        <TextField
-          error
-          id="filled-error"
-          label="Error"
-          defaultValue="Hello World"
-          variant="filled"
-        />
-        <TextField
-          error
-          id="filled-error-helper-text"
-          label="Error"
-          defaultValue="Hello World"
-          helperText="Incorrect entry."
-          variant="filled"
-        />
+        <TextField placeholder="Meat?" />
       </div>
       <div>
-        <TextField
-          error
-          id="outlined-error"
-          label="Error"
-          defaultValue="Hello World"
-          variant="outlined"
-        />
-        <TextField
-          error
-          id="outlined-error-helper-text"
-          label="Error"
-          defaultValue="Hello World"
-          helperText="Incorrect entry."
-          variant="outlined"
-        />
+        <TextField placeholder="Fish?" />
+      </div>
+      <div>
+        <TextField placeholder="Saturday?" />
+      </div>
+      <div>
+        <TextField placeholder="Sunday?" />
       </div>
     </form>
   );
